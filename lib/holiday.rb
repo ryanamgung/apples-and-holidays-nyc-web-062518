@@ -66,9 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       event.each do |day, supply|
         puts "#{day.to_s.capitalize}: #{supply.join(", ").capitalize}"
       end
-    
   end
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
